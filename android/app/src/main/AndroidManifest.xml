@@ -1,4 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- カメラ権限（追加） -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
     <application
         android:label="camera"
         android:name="${applicationName}"
